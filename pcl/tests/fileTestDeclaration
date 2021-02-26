@@ -1,0 +1,15 @@
+{
+/* Test des déclarations de variables */
+
+p:Point;
+
+/*Erreur instanciation*/
+p := new Po();
+/*Erreur p déjà déclarée*/
+p : Pates := new Pates();
+
+j: Pates;
+
+r : Pates;
+
+}

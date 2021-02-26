@@ -1,0 +1,32 @@
+/*Test des envoie_message*/
+{
+/*Test pour un ou plusieurs envoie successifs*/
+point.envoie1();
+point.envoie1().envoie2().envoie3();
+
+
+/*Test des objets sur lesquels s'appliquent les envoie*/
+point.carotte();
+GrandePomme.coin();
+"pomme".alphabet();
+1.jeTest();
+this.qqch();
+this.pomme.qqch();
+(1+2*6).methode();
+(as Class : variable).methode1();
+
+/*test des paramètre d'envoie_message*/
+point.mal(unTruc);
+point.mal(unTruc, deuxTrucs);
+point.mal(unTruc.quiSapplique());
+point.mal(deuxTrucs.quiDiscute(), unPeu);
+point.mal(deuxTrucs.quiDiscute(), unPeu.quandMeme());
+
+point.desNombres(12, 14, "carotte", etDesPommes, Lili);
+
+/* attention ça marche pas */
+/*point mal(); /* sans "." ça ne fonctionne pas
+lila.carotte(jeMet pas deVirgules etCaMarchePas);
+point.Envoie1();
+.carotte();*/
+}

@@ -1,0 +1,63 @@
+class Couleur (arg1 : Integer, arg2 : String, arg3 : Integer) extends Pomme is
+{
+    var jeSuisUnAttriut : Integer;
+    var static etMoiUnAutre : String;
+
+    def Couleur(arg1 : Integer, arg2 : String, arg3 : Integer) : Pomme() is {}
+}
+
+class Point(var x: Integer, var y: Integer, var name: String) is
+{
+
+def PointFAUX(var x: Integer, var y: Integer, var name: String) is { this.next := this.next +1; }
+
+def print() is {}
+
+
+def egal(p: Point) : Integer is {}
+}
+
+class Point() extends Couleur is {
+
+def Point() : Couleur() is {}
+
+}
+
+class CouleurFactory(var p : Integer) extends Couleur is
+{
+    var attribut : String;
+	def CouleurFactory (pomme : Integer) : Couleur(poule, attribut) is {}
+}
+
+class PointColore(x: Integer, y: Integer, varcoul: Couleur) extends Point is {
+def PointColore() : Pomme() is {}
+
+def couleur() : Couleur := this.coul
+
+def colore() : Integer := this.coul.estGris()
+
+def override colore(p : Integer) : Integer := this.coul.estGris()
+
+def override coloret(p : Integer) : Integer := this.coul.estGris()
+
+def colore() : Integer := this.coul.estGris()
+}
+
+/* Les tests qui ne doivent pas marcher
+
+
+class Bonjour(var :){}
+
+class Bonjour */
+
+{ /* programme principal*/
+p : Point := new Point();
+
+pomme3 : Integer;
+pomme4 : Carotte;
+pomme5 : Carotte := 5;
+
+is
+
+
+}

@@ -1,0 +1,44 @@
+{
+/* on test d'abord tous les opérateurs de conditions */
+
+1 = 1;
+1 <> 1;
+1 < 0;
+2 > 5;
+
+
+/* +, -, * et / sont pris en compte et priorités respectées dans sens ascendant */
+
+1+1 = 2+1;
+4-3 = 2-5;
+1*5 = 2*6;
+4/9 = 4/9;
+6&8 = 6&8;
+
+1+4+2+3+9-4-9-4-5 = 1-5+6-4+8-7+6;
+4*8*7*9/8/7/9/5 = 7*8/79/5*8*4/3;
+5&8&9&4&5&7 = 2&4&5&16&3&7;
+
+1+1*5 = 4/2+1;
+4*5-5 = 2-5*4;
+
+/* si tous les atoms sont pris en compte */
+
+pomme+1 = 1+pomme;
+pomme-3 = 1-pomme;
+pomme*"string" = 1112*pomme;
+pomme/9 = 4/pomme;
+"alphabet"&pomme = 3&this;
+nom.nom()&nombre.carotte().al(ai, la.carot().ail()) = saoul + "de " - faire & des / tests.wesh();
+
+
+/* si tous les atoms pris en compte*/
+
+pomme+1 = 1+Pomme;
+Pomme-3 = 1-pomme;
+pomme*5 = 1112*Pomme;
+Pomme/9 = 4/pomme;
+"alphabet"&pomme = Pomme&this;
+nom.nom()&nombre.carotte().al(ai, la.carot().ail()) = saoul + "de " - faire & Des / tests.wesh();
+}
+{}

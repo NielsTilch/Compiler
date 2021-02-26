@@ -1,0 +1,50 @@
+{
+/*Test declaration de variable*/
+p : Point;
+
+/*Test declar + instanciation*/
+p : Point := 2;
+
+p : Point := new Point(2, 3);
+
+/*Elément justement non-reconnu par la grammaire*/
+/*Le marqueur clé de déclaration est faux*/
+p := Point;
+
+
+is /*nécessaire pour l'enchaînement des éléments*/
+
+/*Pas déclaration de variables après le mot-clé is*/
+p : Point;
+
+/*Test d'ordre opératoire*/
+1*2+ 3/4 - 5;
+"pomme" & 12 & jeMange.pomme() & Tomme;
+
+/*Problème de typage à régler à la sémantique*/
+"lilou" + 12 & carotte; /* mélange d'opérations et opérateurs dans une même expression*/
+
+
+/*Test des condExpr à travers des if*/
+if a <> b then {} else {}
+if 40 < 2 then {} else {}
+if I > b then this.coul := 3; else result := 4;
+if pill = "pomme" then {} else {}
+
+/*Test d'assocation d'opérations arithmétiques et de condExpr*/
+if alphabet + lila <> 12 then {} else {}
+
+
+/*Quelques éléments faux que la grammaire remarque*/
+
+/*Problème une condExpr n'est pas une expression*/
+p := carotte < 1; /*Pas d'instanciation*/
+a < b <> etDesPommes; /*Pas d'instructions*/
+
+/*Pas déclaration de variables après le mot-clé is*/
+p : Point;
+
+/*Besoin d'un ; pour finir une instruction*/
+alphabet := "a"
+
+}

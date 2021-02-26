@@ -1,0 +1,8 @@
+{
+/*Analyse des affectations possible*/
+
+plouc : Pates;
+
+plouc := new Autruche();
+
+}

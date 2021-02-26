@@ -1,0 +1,17 @@
+{
+/*Les tests qui passent bien :*/
+1+1*5 = 4/2+1;
+1+(2+(-1)); /*gestion des négatifs avec le case*/
+"pomme" & "orange";
+"pomme" & "orange" & "chocolat";
+
+
+
+/*ceux qui ne passent pas :*/
+
+2/0; /*division par 0 simple*/
+1+(2*1+2/0); /*division par 0 imbriquée*/
+1&1; /*avec &, il faut des strings*/
+pomme+1 = 1+"pomme"; /*erreur de typage à droite et à gauche, 3 erreurs affichées pour ce test : 1 pour chaque +, et une pour le pomme qui n'a pas de type*/
+"pomme" + "orange"; /*les membres gauche et droite de l'opération + doivent être des int*/
+}
