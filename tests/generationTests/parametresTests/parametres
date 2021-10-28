@@ -1,0 +1,21 @@
+class Point(var x: Integer, var y: String, var z: Integer) is
+{
+
+def Point(var x: Integer, var y: String, var z: Integer) is {}
+
+def slt(d : Integer, p : String, s : Integer) is {}
+
+}
+{
+pomme : Integer := 2;
+carotte : Integer := 3;
+truc : String := "coucou";
+
+
+is
+
+pomme.slt(5, truc);
+
+
+
+}

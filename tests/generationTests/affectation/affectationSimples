@@ -1,0 +1,11 @@
+{
+
+/*coucoucoucoucoucouc := p2.move(p1.getx()-2*5-3, p1.gety(), true);*/
+
+p:Integer := -2;
+
+is
+
+p := 5;
+
+}

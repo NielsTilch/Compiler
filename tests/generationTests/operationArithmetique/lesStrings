@@ -1,0 +1,10 @@
+{
+/*variable : String := "pommes";
+vari : String := "caro";
+
+is
+
+variable & " et " & "une " & vari;*/
+"pommes".println();
+"laSuite".print();
+}

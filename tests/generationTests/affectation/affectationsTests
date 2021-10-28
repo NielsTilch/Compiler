@@ -1,0 +1,33 @@
+class Point(var x: Integer) is
+{
+
+def Point(var x: Integer) is {}
+
+def slt(d : Integer, e : Integer, f:Integer) : Integer is {
+    result :=f;
+}
+
+def stringreturn(z : String) : String is {
+    result := z;
+}
+
+}
+
+
+
+{
+
+p : Integer := 8;
+
+ass : Point := new Point(7);
+
+texte : String;
+
+is
+
+texte := ass.stringreturn("coucoup");
+
+
+p := ass.slt(4,5,p);
+
+}

@@ -1,0 +1,21 @@
+class UneClasse() is {
+
+
+    var jeSuisUnAttribut : Integer;
+
+    def UneClasse() is {
+        jeSuisUnAttribut := 4;
+    }
+
+    def methode() is { }
+
+}
+
+{
+a: UneClasse := new UneClasse();
+
+is
+
+a.jeSuisUnAttribut;
+
+}

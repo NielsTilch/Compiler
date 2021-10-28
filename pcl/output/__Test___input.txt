@@ -1,7 +1,0 @@
-class Point() is {
-def Point() is {}
-
-def override carotte() is {}
-}
-
-{}

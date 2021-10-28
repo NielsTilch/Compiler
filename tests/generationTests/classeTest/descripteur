@@ -1,0 +1,34 @@
+class UneClasse() is {
+
+
+    var jeSuisUnAttribut : Integer;
+    var static etMoiUnAutre : String;
+
+    def UneClasse() is {
+        jeSuisUnAttribut := 4;
+    }
+
+    def methode() is {
+        unAttribut : Integer;
+
+        is
+
+        unAttribut := 2;
+    }
+}
+class Couleur(var arg1 : Integer, arg2 : String) extends UneClasse is
+{
+    def Couleur(var arg1 : Integer, arg2 : String) : UneClasse() is {}
+
+    def override methode(arg : Integer, argum : String) is {
+        unAutreAttribut : Integer;
+
+        is
+
+        unAutreAttribut := 4;
+    }
+
+    def static override uneMethode() is {}
+
+}
+{}

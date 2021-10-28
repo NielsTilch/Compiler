@@ -1,0 +1,35 @@
+class UneClasse() is {
+
+
+    var jeSuisUnAttribut : Integer;
+    var static etMoiUnAutre : String;
+
+    def UneClasse() is {
+        jeSuisUnAttribut := 4;
+    }
+/*
+    def methTypeSansBloc() : String := "ceci fonctionne"
+
+    def methAvecResult() : Integer is {
+          result := 10;
+    }
+*/
+}
+
+{
+a: Integer := 2;
+is
+2.toString();
+
+
+/*
+a: UneClasse := new UneClasse();
+b: String;
+c: Integer;
+is
+"coucou".print();
+
+b := a.methTypeSansBloc();
+c := a.methAvecResult();
+*/
+}
